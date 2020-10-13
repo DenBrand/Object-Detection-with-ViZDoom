@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My vscode configurations
+.vscode
+
+# My virtual vizdoom environment
+vizdoom_venv
