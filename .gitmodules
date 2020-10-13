@@ -1,0 +1,3 @@
+[submodule "ViZDoom"]
+	path = ViZDoom
+	url = https://github.com/mwydmuch/ViZDoom
