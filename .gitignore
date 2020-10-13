@@ -133,3 +133,6 @@ dmypy.json
 
 # My virtual vizdoom environment
 vizdoom_venv
+
+# Screenshots created by get_screenshots.py
+screenshots
