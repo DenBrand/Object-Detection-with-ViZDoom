@@ -36,7 +36,6 @@ if __name__ == '__main__':
             screen_buffer[y + i, x, :] = color
             screen_buffer[y + i, x + width, :] = color
 
-    # read in optional scenario path
     parser = argparse.ArgumentParser(   description='play snap your shots',
                                         epilog='choices for SCREEN RESOLUTION: https://github.com/mwydmuch/ViZDoom/blob/master/doc/Types.md#screenresolution choices for SCREEN FORMAT: https://github.com/mwydmuch/ViZDoom/blob/master/doc/Types.md#-screenformat')
     parser.add_argument('-s',
@@ -84,7 +83,6 @@ if __name__ == '__main__':
     game.set_doom_scenario_path(args.scenario_path)
     game.set_render_hud(args.show_hud)
     game.set_render_weapon(args.show_weapon)
-
     game.set_mode(Mode.ASYNC_SPECTATOR)
     game.set_labels_buffer_enabled(True)
     game.set_screen_format(ScreenFormat.BGR24)
